@@ -170,3 +170,4 @@ C:\Techerdemy\LectureAPI\obj\Debug\net8.0\refint\LectureAPI.dll
 C:\Techerdemy\LectureAPI\obj\Debug\net8.0\LectureAPI.pdb
 C:\Techerdemy\LectureAPI\obj\Debug\net8.0\LectureAPI.genruntimeconfig.cache
 C:\Techerdemy\LectureAPI\obj\Debug\net8.0\ref\LectureAPI.dll
+C:\Techerdemy\LectureAPI\obj\Debug\net8.0\LectureAPI.sourcelink.json

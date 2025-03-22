@@ -45,7 +45,7 @@ namespace LectureAPI.Services
             await _context.SaveChangesAsync();
             return course;
         }
-        public async Task<Course> UpdateCourseTitleAsync(int id, string? newTitle)
+        public async Task<Course> UpdateCourseCodeAsync(int id, string newCourseCode)
         {
             var existingCourse = await _context.Courses.FindAsync(id);
             if(existingCourse == null)
@@ -53,7 +53,7 @@ namespace LectureAPI.Services
                 throw new KeyNotFoundException($"Course with id {existingCourse.Id} does not exist");
             }
 
-            _context.Entry(existingCourse.CourseTitle).CurrentValues.SetValues(newTitle);
+            _context.Entry(existingCourse).CurrentValues.SetValues(existingCourse.CourseCode = newCourseCode);
             await _context.SaveChangesAsync();
             return existingCourse;
         }

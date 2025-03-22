@@ -26,7 +26,7 @@ namespace LectureAPI.Controllers
         public async Task<IActionResult> GetCourse(int id)
         {
             var course = await _courseService.GetCourseAsync(id);
-            if(course == null)
+            if (course == null)
             {
                 return NotFound();
             }
@@ -40,14 +40,14 @@ namespace LectureAPI.Controllers
             return Ok(courses);
         }
 
-        [HttpPatch]
-        public async Task<IActionResult> UpdateCourseTitle(int id, string newTitle)
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> UpdateCourseCode(int id, string newCourseCode)
         {
-            var updatedCourse = await _courseService.UpdateCourseTitleAsync(id, newTitle);
+            var updatedCourse = await _courseService.UpdateCourseCodeAsync(id, newCourseCode);
             return Ok(updatedCourse);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCourse(int id, Course course)
         {
             if(id != course.Id)
@@ -58,7 +58,7 @@ namespace LectureAPI.Controllers
             return Ok(updatedCourse);
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCourse(int id)
         {
             await _courseService.DeleteCourseAsync(id);

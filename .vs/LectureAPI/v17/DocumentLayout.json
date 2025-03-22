@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Techerdemy\\LectureAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -82,24 +86,90 @@
               "IsPinned": true
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAQAAADIZWZmZmYkwDwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:06:27.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Models\\Course.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Models\\Course.cs",
+              "RelativeToolTip": "Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T18:53:29.428Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\CourseService.cs",
+              "ViewState": "AgIAAAoAAACAY2ZmZmY4wCgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:55:21.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAACsAAAAA9/////8FwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T16:25:30.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzMzMrwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T15:45:36.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Techerdemy\\LectureAPI\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAB4ZmZmZmY5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:49:13.899Z"
+              "WhenOpened": "2025-03-22T16:49:13.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -112,43 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentService.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
-              "RelativeToolTip": "Services\\StudentService.cs",
-              "ViewState": "AgIAAAgAAABgZWZmZmYswAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:25:30.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "Services\\CourseService.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
-              "RelativeToolTip": "Services\\CourseService.cs",
-              "ViewState": "AgIAADIAAAAAj5mZmZkAwDwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T05:55:21.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAADUAAAAAMzMzM3MjwD4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:39:57.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -160,19 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ICourseService.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
-              "RelativeToolTip": "Interfaces\\ICourseService.cs",
-              "ViewState": "AgIAAAAAAAAAMzMzMzMrwAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:45:36.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20250319110343_Updated.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Migrations\\20250319110343_Updated.cs",
               "RelativeDocumentMoniker": "Migrations\\20250319110343_Updated.cs",
@@ -184,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -196,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "20250312135320_SubsequentCreate.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Migrations\\20250312135320_SubsequentCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250312135320_SubsequentCreate.cs",
@@ -208,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20250312135015_NewMigration.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Migrations\\20250312135015_NewMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20250312135015_NewMigration.cs",
@@ -219,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "20250312121148_InitialCreate.cs",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Migrations\\20250312121148_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250312121148_InitialCreate.cs",
@@ -231,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LectureAPI.csproj",
               "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\LectureAPI.csproj",
               "RelativeDocumentMoniker": "LectureAPI.csproj",

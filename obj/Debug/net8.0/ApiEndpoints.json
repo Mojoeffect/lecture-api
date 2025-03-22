@@ -27,8 +27,24 @@
   },
   {
     "ContainingType": "LectureAPI.Controllers.CourseController",
-    "Method": "UpdateCourseTitle",
-    "RelativePath": "api/Course",
+    "Method": "GetCourse",
+    "RelativePath": "api/Course/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LectureAPI.Controllers.CourseController",
+    "Method": "UpdateCourseCode",
+    "RelativePath": "api/Course/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -36,10 +52,10 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
-        "Name": "newTitle",
+        "Name": "newCourseCode",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -49,7 +65,7 @@
   {
     "ContainingType": "LectureAPI.Controllers.CourseController",
     "Method": "UpdateCourse",
-    "RelativePath": "api/Course",
+    "RelativePath": "api/Course/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -57,7 +73,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "course",
@@ -70,24 +86,8 @@
   {
     "ContainingType": "LectureAPI.Controllers.CourseController",
     "Method": "DeleteCourse",
-    "RelativePath": "api/Course",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "LectureAPI.Controllers.CourseController",
-    "Method": "GetCourse",
     "RelativePath": "api/Course/{id}",
-    "HttpMethod": "GET",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
