@@ -3,6 +3,7 @@ using LectureAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LectureAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250326115508_DatabaseModified")]
+    partial class DatabaseModified
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,24 +91,29 @@ namespace LectureAPI.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
+                    b.Property<int>("CourseId1")
+                        .HasColumnType("int");
+
                     b.HasKey("StudentId", "CourseId");
 
                     b.HasIndex("CourseId");
+
+                    b.HasIndex("CourseId1");
 
                     b.ToTable("StudentCourses");
                 });
 
             modelBuilder.Entity("LectureAPI.Models.StudentCourse", b =>
                 {
-                    b.HasOne("LectureAPI.Models.Course", "Course")
+                    b.HasOne("LectureAPI.Models.Student", "Student")
                         .WithMany("StudentCourses")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LectureAPI.Models.Student", "Student")
+                    b.HasOne("LectureAPI.Models.Course", "Course")
                         .WithMany("StudentCourses")
-                        .HasForeignKey("StudentId")
+                        .HasForeignKey("CourseId1")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

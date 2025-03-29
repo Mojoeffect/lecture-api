@@ -37,12 +37,12 @@ namespace LectureAPI.Services
 
         public async Task<Student> GetStudentAsync(int id)
         {
-            return await _context.Students.Include(s => s.Courses).FirstOrDefaultAsync(s => s.Id == id);
+            return await _context.Students.FirstOrDefaultAsync(s => s.Id == id);
         }
 
         public async Task<IEnumerable<Student>> GetStudentsAsync()
         {
-            return await _context.Students.Include(s => s.Courses).ToListAsync();
+            return await _context.Students.ToListAsync();
         }
 
         public async Task<Student> UpdateStudentAsync(Student student)

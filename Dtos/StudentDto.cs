@@ -1,13 +1,13 @@
-﻿namespace LectureAPI.Models
+﻿using LectureAPI.Models;
+
+namespace LectureAPI.Dtos
 {
-    public class Student : Person
+    public class StudentDto : Person
     {
         public int Id { get; set; }
         public string? Department { get; set; }
         public string? Faculty { get; set; }
         public string? Level { get; set; }
         public string? MatricNumber { get; set; }
-        public List<StudentCourse>? StudentCourses { get; set; } = new List<StudentCourse>(); //for many-many navigation
-
     }
 }

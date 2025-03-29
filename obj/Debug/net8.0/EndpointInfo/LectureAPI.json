@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             }
           }
@@ -115,17 +115,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Course"
+                "$ref": "#/components/schemas/CourseDto"
               }
             }
           }
@@ -159,16 +159,6 @@
       }
     },
     "/api/Student": {
-      "get": {
-        "tags": [
-          "Student"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
       "post": {
         "tags": [
           "Student"
@@ -177,21 +167,31 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Student"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -240,17 +240,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Student"
+                "$ref": "#/components/schemas/StudentDto"
               }
             }
           }
@@ -282,11 +282,119 @@
           }
         }
       }
+    },
+    "/api/StudentCourseService": {
+      "post": {
+        "tags": [
+          "StudentCourseService"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "courseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/StudentCourseService/{studentId} {courseId}": {
+      "delete": {
+        "tags": [
+          "StudentCourseService"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "courseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/StudentCourseService/{studentId}": {
+      "get": {
+        "tags": [
+          "StudentCourseService"
+        ],
+        "parameters": [
+          {
+            "name": "studentId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/{courseId}": {
+      "get": {
+        "tags": [
+          "StudentCourseService"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "Course": {
+      "CourseDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -308,7 +416,7 @@
         },
         "additionalProperties": false
       },
-      "Student": {
+      "StudentDto": {
         "type": "object",
         "properties": {
           "name": {
@@ -344,13 +452,6 @@
           },
           "matricNumber": {
             "type": "string",
-            "nullable": true
-          },
-          "courses": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Course"
-            },
             "nullable": true
           }
         },

@@ -26,6 +26,7 @@ namespace LectureAPI.Services
         {
             return await _context.Courses.FindAsync(id);
         }
+
         public async Task<IEnumerable<Course>> GetCoursesAsync()
         {
             return await _context.Courses.ToListAsync();

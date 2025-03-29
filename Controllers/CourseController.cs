@@ -1,7 +1,9 @@
-﻿using LectureAPI.Interfaces;
+﻿using LectureAPI.Dtos;
+using LectureAPI.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using LectureAPI.Models;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace LectureAPI.Controllers
 {
@@ -16,10 +18,19 @@ namespace LectureAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddCourse(Course course)
+        public async Task<IActionResult> AddCourse(CourseDto courseDto)
         {
-            var newCourse = await _courseService.AddCourseAsync(course);
-            return CreatedAtAction(nameof(GetCourse), new { id = newCourse.Id }, newCourse);
+            Course course = new Course
+            {
+                Id = courseDto.Id,
+                CourseCode = courseDto.CourseCode,
+                CourseTitle = courseDto.CourseTitle,
+                CreditUnit = courseDto.CreditUnit,
+                
+            };
+
+            await _courseService.AddCourseAsync(course);
+            return CreatedAtAction(nameof(GetCourse), new { id = courseDto.Id }, courseDto);
         }
 
         [HttpGet("{id}")]
@@ -30,32 +41,63 @@ namespace LectureAPI.Controllers
             {
                 return NotFound();
             }
-            return Ok(course);
+            CourseDto courseDto = new CourseDto
+            {
+                Id = course.Id,
+                CourseCode = course.CourseCode,
+                CourseTitle = course.CourseTitle,
+                CreditUnit = course.CreditUnit
+            };
+            return Ok(courseDto);
         }
 
         [HttpGet]
         public async Task<IActionResult> GetCourses()
         {
             var courses = await _courseService.GetCoursesAsync();
-            return Ok(courses);
+            var coursesDto = courses.Select(course => new CourseDto
+            {
+                Id = course.Id,
+                CourseCode = course.CourseCode,
+                CourseTitle = course.CourseTitle,
+                CreditUnit = course.CreditUnit
+            });
+            return Ok(coursesDto);
         }
 
         [HttpPatch("{id}")]
         public async Task<IActionResult> UpdateCourseCode(int id, string newCourseCode)
         {
             var updatedCourse = await _courseService.UpdateCourseCodeAsync(id, newCourseCode);
-            return Ok(updatedCourse);
+            CourseDto courseDto = new CourseDto
+            {
+                Id = updatedCourse.Id,
+                CourseCode = updatedCourse.CourseCode,
+                CourseTitle = updatedCourse.CourseTitle,
+                CreditUnit = updatedCourse.CreditUnit
+                
+            };
+            return Ok(courseDto);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCourse(int id, Course course)
+        public async Task<IActionResult> UpdateCourse(int id, CourseDto courseDto)
         {
-            if(id != course.Id)
+            if(id != courseDto.Id)
             {
                 return BadRequest("ID mismatch");
             }
-            var updatedCourse = await _courseService.UpdateCourseAsync(course);
-            return Ok(updatedCourse);
+
+            Course course = new Course
+            {
+                Id = courseDto.Id,
+                CourseCode = courseDto.CourseCode,
+                CourseTitle = courseDto.CourseTitle,
+                CreditUnit = courseDto.CreditUnit,
+            };
+
+            await _courseService.UpdateCourseAsync(course);
+            return Ok(courseDto);
         }
 
         [HttpDelete("{id}")]
