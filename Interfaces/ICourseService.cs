@@ -1,14 +1,14 @@
 ﻿using LectureAPI.Models;
-
+using LectureAPI.Dtos;
 namespace LectureAPI.Interfaces
 {
     public interface ICourseService
     {
-        Task<Course> AddCourseAsync(Course course);
-        Task<Course> GetCourseAsync(int id);
-        Task<IEnumerable<Course>> GetCoursesAsync();
-        Task<Course> UpdateCourseAsync(Course course);
-        Task<Course> UpdateCourseCodeAsync(int id, string? newCode);
+        Task<CourseDto> AddCourseAsync(CourseDto courseDto);
+        Task<CourseDto> GetCourseAsync(int id);
+        Task<IEnumerable<CourseDto>> GetCoursesAsync();
+        Task<CourseDto> UpdateCourseAsync(CourseDto courseDto);
+        Task<CourseDto> UpdateCourseCodeAsync(int id, string? newCode);
         Task DeleteCourseAsync(int id);
     }
 }

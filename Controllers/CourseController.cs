@@ -20,16 +20,7 @@ namespace LectureAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddCourse(CourseDto courseDto)
         {
-            Course course = new Course
-            {
-                Id = courseDto.Id,
-                CourseCode = courseDto.CourseCode,
-                CourseTitle = courseDto.CourseTitle,
-                CreditUnit = courseDto.CreditUnit,
-                
-            };
-
-            await _courseService.AddCourseAsync(course);
+            await _courseService.AddCourseAsync(courseDto);
             return CreatedAtAction(nameof(GetCourse), new { id = courseDto.Id }, courseDto);
         }
 
@@ -37,47 +28,25 @@ namespace LectureAPI.Controllers
         public async Task<IActionResult> GetCourse(int id)
         {
             var course = await _courseService.GetCourseAsync(id);
-            if (course == null)
+            if(course == null)
             {
                 return NotFound();
             }
-            CourseDto courseDto = new CourseDto
-            {
-                Id = course.Id,
-                CourseCode = course.CourseCode,
-                CourseTitle = course.CourseTitle,
-                CreditUnit = course.CreditUnit
-            };
-            return Ok(courseDto);
+            return Ok(course);
         }
 
         [HttpGet]
         public async Task<IActionResult> GetCourses()
         {
             var courses = await _courseService.GetCoursesAsync();
-            var coursesDto = courses.Select(course => new CourseDto
-            {
-                Id = course.Id,
-                CourseCode = course.CourseCode,
-                CourseTitle = course.CourseTitle,
-                CreditUnit = course.CreditUnit
-            });
-            return Ok(coursesDto);
+            return Ok(courses);
         }
 
         [HttpPatch("{id}")]
         public async Task<IActionResult> UpdateCourseCode(int id, string newCourseCode)
         {
             var updatedCourse = await _courseService.UpdateCourseCodeAsync(id, newCourseCode);
-            CourseDto courseDto = new CourseDto
-            {
-                Id = updatedCourse.Id,
-                CourseCode = updatedCourse.CourseCode,
-                CourseTitle = updatedCourse.CourseTitle,
-                CreditUnit = updatedCourse.CreditUnit
-                
-            };
-            return Ok(courseDto);
+            return Ok(updatedCourse);
         }
 
         [HttpPut("{id}")]
@@ -96,7 +65,7 @@ namespace LectureAPI.Controllers
                 CreditUnit = courseDto.CreditUnit,
             };
 
-            await _courseService.UpdateCourseAsync(course);
+            await _courseService.UpdateCourseAsync(courseDto);
             return Ok(courseDto);
         }
 
@@ -104,7 +73,7 @@ namespace LectureAPI.Controllers
         public async Task<IActionResult> DeleteCourse(int id)
         {
             await _courseService.DeleteCourseAsync(id);
-            return Ok();
+            return NoContent();
         }
     }
 }

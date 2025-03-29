@@ -1,7 +1,9 @@
 ﻿using LectureAPI.Interfaces;
 using LectureAPI.Models;
 using LectureAPI.Data;
+using LectureAPI.Dtos;
 using Microsoft.EntityFrameworkCore;
+
 namespace LectureAPI.Services
 {
     public class StudentCourseService : IStudentCourseService
@@ -11,7 +13,7 @@ namespace LectureAPI.Services
         {
             _context = context;
         }
-        public async Task<StudentCourse> AddStudentCourseAsync(int studentId, int courseId)
+        public async Task<StudentCourseDto> AddStudentCourseAsync(int studentId, int courseId)
         {
             var studentExists = await _context.Students.AnyAsync(s => s.Id == studentId);
             if (!studentExists)
@@ -32,7 +34,13 @@ namespace LectureAPI.Services
 
             _context.StudentCourses.Add(studentCourse);
             await _context.SaveChangesAsync();
-            return studentCourse;
+
+            var studentCourseDto = new StudentCourseDto
+            {
+                CourseId = studentCourse.CourseId,
+                StudentId = studentCourse.StudentId
+            };
+            return studentCourseDto;
         }
 
         public async Task RemoveStudentCourseAsync(int studentId,int courseId)
@@ -46,19 +54,44 @@ namespace LectureAPI.Services
             _context.StudentCourses.Remove(studentCourse);
             await _context.SaveChangesAsync();
         }
-        public async Task<IEnumerable<Course>> GetCoursesForStudentAsync(int studentId)
+        public async Task<IEnumerable<CourseDto>> GetCoursesForStudentAsync(int studentId)
         {
-            return await _context.StudentCourses
+            var coursesForStudent = await _context.StudentCourses
                 .Where(sc => sc.StudentId == studentId)
                 .Select(sc => sc.Course)
                 .ToListAsync();
+
+            var coursesForStudentDto = coursesForStudent.Select(course => new CourseDto
+            {
+                Id = course.Id,
+                CourseCode = course.CourseCode,
+                CourseTitle = course.CourseTitle,
+                CreditUnit = course.CreditUnit
+            });
+
+            return coursesForStudentDto;
         }
-        public async Task<IEnumerable<Student>> GetStudentsForCourseAsync(int courseId)
+        public async Task<IEnumerable<StudentDto>> GetStudentsForCourseAsync(int courseId)
         {
-            return await _context.StudentCourses
+            var studentsForCourse = await _context.StudentCourses
                 .Where(sc => sc.CourseId == courseId)
                 .Select(sc => sc.Student)
                 .ToListAsync();
+
+            var studentsForCourseDto = studentsForCourse.Select(student => new StudentDto
+            {
+                Name = student.Name,
+                Age = student.Age,
+                Gender = student.Gender,
+                IsNigeria = student.IsNigeria,
+                Id = student.Id,
+                Department = student.Department,
+                Faculty = student.Faculty,
+                Level = student.Level,
+                MatricNumber = student.MatricNumber
+            });
+
+            return studentsForCourseDto;
         }
     }
 }

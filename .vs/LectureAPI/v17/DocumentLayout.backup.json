@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Techerdemy\\LectureAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\services\\studentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:services\\studentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +31,8 @@
       "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\dtos\\studentcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:dtos\\studentcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|c:\\techerdemy\\lectureapi\\interfaces\\istudentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FF410B-81AA-4F64-B84D-27C68A260476}|LectureAPI.csproj|solutionrelative:interfaces\\istudentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,101 +42,114 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentCourseDto.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Dtos\\StudentCourseDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\StudentCourseDto.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Dtos\\StudentCourseDto.cs",
-              "RelativeToolTip": "Dtos\\StudentCourseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:21:33.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentDto.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Dtos\\StudentDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\StudentDto.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Dtos\\StudentDto.cs",
-              "RelativeToolTip": "Dtos\\StudentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:21:22.259Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentCourseController.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentCourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentCourseController.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentCourseController.cs",
-              "RelativeToolTip": "Controllers\\StudentCourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAYAAACImZmZmZkxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:16:39.067Z",
+              "WhenOpened": "2025-03-29T17:39:26.193Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAAHAAAAAAjZmZmZkrwHYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:01:18.874Z",
+              "WhenOpened": "2025-03-29T17:37:52.997Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\CourseService.cs",
+              "ViewState": "AgIAADMAAAAAlZmZmZkRwGUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:01:23.866Z",
+              "WhenOpened": "2025-03-29T17:36:36.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CourseDto.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Dtos\\CourseDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\CourseDto.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Dtos\\CourseDto.cs",
-              "RelativeToolTip": "Dtos\\CourseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAACcAAACASWZmZuYYwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:20:57.764Z",
+              "WhenOpened": "2025-03-29T17:28:15.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAADIAAAAAYJeZmZnJv0sAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:12:34.138Z",
+              "WhenOpened": "2025-03-29T17:26:14.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentCourseController.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentCourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentCourseController.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Controllers\\StudentCourseController.cs",
+              "RelativeToolTip": "Controllers\\StudentCourseController.cs",
+              "ViewState": "AgIAABoAAAAgMDMzMzM2wB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T16:49:33.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentCourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Services\\StudentCourseService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentCourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Services\\StudentCourseService.cs",
+              "RelativeToolTip": "Services\\StudentCourseService.cs",
+              "ViewState": "AgIAAFoAAAAAYGZmZiYuwFcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T16:49:31.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStudentCourseService.cs",
+              "DocumentMoniker": "C:\\Techerdemy\\LectureAPI\\Interfaces\\IStudentCourseService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStudentCourseService.cs",
+              "ToolTip": "C:\\Techerdemy\\LectureAPI\\Interfaces\\IStudentCourseService.cs",
+              "RelativeToolTip": "Interfaces\\IStudentCourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T16:49:24.608Z",
               "EditorCaption": ""
             }
           ]
